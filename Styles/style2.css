@@ -1,0 +1,134 @@
+.field-block-label {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+.height-24 {
+  height: 24px;
+}
+input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+input.error,
+input.error.active,
+input.error:active,
+input.error:focus {
+  border: solid 1px red;
+}
+.em-bg-green {
+  background: #7abe5e none;
+}
+.em-bg-light-blue {
+  background: #00a2da none;
+}
+.txt-green {
+  color: #7abe5e;
+}
+.txt-light-blue {
+  color: #00a2da;
+}
+.nav-tabs.em-tabs {
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+}
+.nav-tabs.em-tabs li {
+  background-color: #075c8f;
+  color: #fff;
+  font-family: Roboto;
+}
+.nav-tabs.em-tabs li:not(:first-child):not(:active) {
+  border-left: 1px solid #fff;
+}
+.nav-tabs.em-tabs li.active {
+  background-color: #fff;
+  color: #075c8f;
+}
+.nav-tabs.em-tabs li a {
+  margin-right: 1px;
+  cursor: pointer;
+  border-radius: 0;
+  border-bottom: none;
+  color: #fff;
+  transition: color 0.2s ease-in;
+}
+.nav-tabs.em-tabs li.active a {
+  color: #075c8f;
+}
+.fullscreen-message {
+  background-color: #075c8f;
+  opacity: 0.6;
+  color: #fff;
+  font-size: 16px;
+}
+.risk-profile-warning {
+  color: red;
+}
+.star {
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  background: url("../Images/star_outline.png")
+    no-repeat scroll;
+}
+.star.active {
+  background: url("../Images/star_yellow.png")
+    no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+.d-list-item {
+  display: list-item !important;
+}
+.vhidden {
+  visibility: hidden;
+}
+@media (min-width: 576px) {
+  .d-sm-list-item {
+    display: list-item !important;
+  }
+}
+@media (min-width: 768px) {
+  .d-md-list-item {
+    display: list-item !important;
+  }
+}
+@media (min-width: 992px) {
+  .d-lg-list-item {
+    display: list-item !important;
+  }
+  .field-block-label:lang(ja) {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .d-xl-list-item {
+    display: list-item !important;
+  }
+  .field-block-label:lang(ja) {
+    font-size: 15px;
+  }
+}
+
+
+.h1-new {
+  font-size: clamp(28px, 4vw, 60px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #075c8f;
+  margin-bottom: 20px;
+}
+
+.h2-new {
+  font-size: clamp(20px, 4vw, 28px);
+  
+  line-height: 1.2;
+  color: #404041;
+}
+
