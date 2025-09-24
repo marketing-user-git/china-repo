@@ -1,7 +1,3 @@
-a {
-  color: unset !important;
-}
-
 .content-market-analysis a:hover {
   text-decoration: none;
   color: #075c8f;
@@ -359,7 +355,8 @@ a {
   opacity: 0.35;
   outline: 0;
   z-index: 3;
-  background: url("../Images/trustpilot-right.svg") no-repeat;
+  background: url("../Images/trustpilot-right.svg")
+    no-repeat;
   transition: 0.3s all;
 }
 .snippet-trustpilot-cn-zh-hans .carousel__control:hover {
@@ -855,7 +852,9 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/call.svg") no-repeat center;
+  background: url(
+    "../Images/call.svg")
+    no-repeat center;
   width: 12px;
   height: 11px;
 }
@@ -871,7 +870,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/chat.svg") no-repeat center;
+  background: url("../Images/chat.svg")
+    no-repeat center;
   width: 13px;
   height: 11px;
 }
@@ -881,7 +881,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/envelope.svg") no-repeat center;
+  background: url("../Images/envelope.svg")
+    no-repeat center;
   width: 12px;
   height: 9px;
 }
@@ -899,7 +900,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/ping.svg") no-repeat center;
+  background: url("../Images/ping.svg")
+    no-repeat center;
   width: 12px;
   height: 13px;
 }
@@ -935,7 +937,8 @@ a {
 }
 .snippet-footer-menu-cn-zh-hans
   .social-icons[data-social-icon="social-icons-blog"] {
-  background: url("../Images/info-small.svg") no-repeat center;
+  background: url("../Images/info-small.svg")
+    no-repeat center;
   width: 23px;
   height: 24px;
   display: block;
@@ -944,7 +947,8 @@ a {
 }
 .snippet-footer-menu-cn-zh-hans
   .social-icons[data-social-icon="social-icons-facebook"] {
-  background: url("../Images/fb-small.svg") no-repeat center;
+  background: url("../Images/fb-small.svg")
+    no-repeat center;
   width: 12px;
   height: 22px;
   display: block;
@@ -953,7 +957,8 @@ a {
 }
 .snippet-footer-menu-cn-zh-hans
   .social-icons[data-social-icon="social-icons-twitter"] {
-  background: url("../Images/X_Logo.svg") no-repeat center;
+  background: url("../Images/X_Logo.svg")
+    no-repeat center;
   width: 22px;
   height: 20px;
   display: block;
@@ -962,7 +967,8 @@ a {
 }
 .snippet-footer-menu-cn-zh-hans
   .social-icons[data-social-icon="social-icons-cn"] {
-  background: url("../Images/weibo-small.svg") no-repeat center;
+  background: url("../Images/weibo-small.svg")
+    no-repeat center;
   width: 29px;
   height: 23px;
   display: block;
@@ -971,7 +977,8 @@ a {
 }
 .snippet-footer-menu-cn-zh-hans
   .social-icons[data-social-icon="social-icons-in"] {
-  background: url("../Images/in-small.svg") no-repeat center;
+  background: url("../Images/in-small.svg")
+    no-repeat center;
   width: 22px;
   height: 22px;
   display: block;
@@ -980,7 +987,8 @@ a {
 }
 .snippet-footer-menu-cn-zh-hans
   .social-icons[data-social-icon="social-icons-youtube"] {
-  background: url("../Images/yt-small.svg") no-repeat center;
+  background: url("../Images/yt-small.svg")
+    no-repeat center;
   width: 26px;
   height: 19px;
   display: block;
@@ -1141,7 +1149,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/call-small.svg") no-repeat center;
+  background: url("../Images/call-small.svg")
+    no-repeat center;
   width: 12px;
   height: 11px;
 }
@@ -1157,7 +1166,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/live-chat-icon.svg") no-repeat center;
+  background: url("../Images/live-chat-icon.svg")
+    no-repeat center;
   width: 13px;
   height: 11px;
 }
@@ -1167,7 +1177,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/mail-small.svg") no-repeat center;
+  background: url("../Images/mail-small.svg")
+    no-repeat center;
   width: 12px;
   height: 9px;
 }
@@ -1185,7 +1196,8 @@ a {
   left: 0;
   display: inline-block;
   vertical-align: middle;
-  background: url("../Images/ping.svg") no-repeat center;
+  background: url("../Images/ping.svg")
+    no-repeat center;
   width: 12px;
   height: 13px;
 }
@@ -1220,7 +1232,8 @@ a {
   width: 140px;
 }
 .snippet-footer-cn-zh-hans .social-menu .social-icons {
-  background: url("../Images/icons.svg") no-repeat;
+  background: url("../Images/icons.svg")
+    no-repeat;
 }
 .snippet-footer-cn-zh-hans
   .social-icons[data-social-icon="social-icons-instagram"] {
